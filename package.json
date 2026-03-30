@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit",
     "typecheck:convex": "bunx convex typecheck",
     "generate:og": "bun run scripts/generate-og.tsx",
-    "env:pull": "infisical export --path /other/lawn/secrets --env dev > .env"
+    "env:pull": "infisical export --projectId 13a5426c-f432-4039-91da-a66b9d39c187 --path /other/lawn/secrets --env dev > .env"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.991.0",
